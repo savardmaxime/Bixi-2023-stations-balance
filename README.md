@@ -32,19 +32,12 @@ The difference in altitude does not clearly affect pick-up and drop-off stations
 **[Altitude analysis](https://github.com/savardmaxime/Bixi-2023-stations-balance/blob/main/altitude_analysis.ipynb)**
 
 ## Further investigation ideas
-- Most universities are around the mountain, and students are often users of the bike sharing system. 
-- What is the parking offer in the city, are people using bixi where there is no parking?
+- Most universities are around the mountain, and students are often users of bixi. 
+- What is the parking offer in the city, are people using bixi when there is no parking, or when the cost of parking is too high?
+- Survey why people are not travelling back to their origin by bixi.
+
 
 ## Data sources
 - Bixi data from https://bixi.com/fr/donnees-ouvertes/
 - Altitude data from https://donnees.montreal.ca/dataset/modele-numerique-de-terrain-mnt
 
-
-The solution is to move the bikes between those stations to satisfy the customers. 
-
-But which stations constantly have not enough or too many bikes, and how many bikes should we have to move per day. Does the pattern change between mroning and afternoon?
-
-In the maps below bikes need to be moved from blue stations to red stations, the darker the more bikes need to be repositioned.
-
-
-Around university are affected. 
