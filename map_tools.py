@@ -1,7 +1,16 @@
+import io
+from PIL import Image
 
 import branca.colormap as cm
 import folium
 
+
+def save_map(map, filename):
+    img_data = map._to_png(5)
+    img = Image.open(io.BytesIO(img_data))
+    img.save(filename)
+
+    
 # function prepare map and add markers
 def make_map(map_gdf, feature):
     linear = cm.linear.RdBu_10.scale(-50, 50)
